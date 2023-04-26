@@ -25,7 +25,7 @@ O *merge sort* é um conhecido eficiente algoritmo de ordenação baseado no par
 
 <p align="center">
    <img width="40%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/1200px-Merge_sort_algorithm_diagram.svg.png" alt="Merge sort algorithm diagram" /><br/>
- <span><em>Exemplo de execução do algoritmo <em>merge sort</em> para ordenação <em>top-down</em> de um arranjo de inteiros com sete elementos.<br/>Fonte: Wikipedia</em></span>
+ <span><em>Exemplo de execução do algoritmo <em>merge sort</em> para ordenação <em>top-down</em> de um arranjo de inteiros com sete elementos (fonte: Wikipedia)</em></span>
 </p>
 
 Independentemente do caso (melhor ou pior), a complexidade do *merge sort* em termos de tempo de execução é sempre da ordem de $n * \log n$, em que $n$ é o número de elementos do arranjo a ser ordenado, fazendo com que esse algoritmo seja uma eficiente opção para a ordenação de conjuntos de dados. Além disso, um diferencial importante do *merge sort* é que ele é considerado um algoritmo estável, isto é, a ordenação mantém a ordem dos elementos iguais em que caso o elemento mais à esquerda seja menor ou igual ao mais à direita, ele deve ser colocado primeiro no arranjo ordenado. 
