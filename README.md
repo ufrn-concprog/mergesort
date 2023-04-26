@@ -5,10 +5,11 @@
 ## Sumário
 
 - [Visão geral e objetivos](#visão-geral-e-objetivos)  
+- [Introdução](#introdução)
 - [Tarefas](#tarefas)
-- [Requisitos](#requisitos)
-- [Orientações gerais](#orientações-gerais)
-- [Exemplos de entradas e saídas](#exemplos-de-entradas-e-saídas)
+  * [Implementação](#implementação)
+  * [Experimentação](#experimentação)
+  * [Relato](#relato)
 - [Autoria e política de colaboração](#autoria-e-política-de-colaboração)
 - [Entrega](#entrega)
 - [Avaliação](#avaliação)
@@ -22,7 +23,7 @@ O objetivo deste trabalho é verificar se é válida hipótese de que programas 
 
 O *merge sort* é um conhecido eficiente algoritmo de ordenação baseado no paradigma de divisão e conquista (em inglês, *divide-and-conquer*) proposto por John von Neumann em 1945. Na perspectiva desse paradigma, o problema é recursivamente decomposto em dois ou mais subproblemas menores até que sejam resolvidos de forma simples e direta, e as soluções desses subproblemas são então combinadas até comporem a solução para o problema original. No caso do *merge sort*, o (sub)arranjo de elementos a serem ordenados é particionado, de forma recursiva, em duas partes até que se tenha um subarranjo composto de um único elemento, o qual já se considera ordenado. Em seguida, uma operação chamada merge une duas partes ordenadas do arranjo em uma outra também ordenada. A figura a seguir ilustra como o *merge sort* funciona.
 
-Independentemente do caso (melhor ou pior), a complexidade do merge sort em termos de tempo de execução é sempre da ordem de $n * log n$, em que $n$ é o número de elementos do arranjo a ser ordenado. Além disso, um diferencial importante do *merge sort* é que ele é considerado um algoritmo estável, isto é, a ordenação mantém a ordem dos elementos iguais em que caso o elemento mais à esquerda seja menor ou igual ao mais à direita, ele deve ser colocado primeiro no arranjo ordenado. 
+Independentemente do caso (melhor ou pior), a complexidade do merge sort em termos de tempo de execução é sempre da ordem de $n * \log n$, em que $n$ é o número de elementos do arranjo a ser ordenado. Além disso, um diferencial importante do *merge sort* é que ele é considerado um algoritmo estável, isto é, a ordenação mantém a ordem dos elementos iguais em que caso o elemento mais à esquerda seja menor ou igual ao mais à direita, ele deve ser colocado primeiro no arranjo ordenado. 
 
 
 ## Tarefas
