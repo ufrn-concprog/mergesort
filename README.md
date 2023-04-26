@@ -7,9 +7,9 @@
 - [Visão geral e objetivos](#visão-geral-e-objetivos)  
 - [Introdução](#introdução)
 - [Tarefas](#tarefas)
-  * [Implementação](#implementação)
-  * [Experimentação](#experimentação)
-  * [Relato](#relato)
+  - [Implementação](#implementação)
+  - [Experimentação](#experimentação)
+  - [Relato](#relato)
 - [Autoria e política de colaboração](#autoria-e-política-de-colaboração)
 - [Entrega](#entrega)
 - [Avaliação](#avaliação)
@@ -35,7 +35,7 @@ Independentemente do caso (melhor ou pior), a complexidade do *merge sort* em te
 
 ### Implementação
 
-Dentre as tarefas deste trabalho, deverão ser implementadas uma versão sequencial e uma versão concorrente do algoritmo de ordenação *merge sort*. O programa deverá receber como entrada um arquivo de texto dentre os disponíveis no diretório [`input`](input) deste repositório, cada um deles contendo um conjunto de valores inteiros a ser ordenado. Para cada arquivo, o programa deverá (i) ler os valores a partir do arquivo, (ii) realizar a ordenação dos valores, (iii) medir o tempo de execução despendido pela ordenação e (iv) gerar, como saída, um novo arquivo no diretório [`output`](output) com o conjunto ordenado de valores e o mesmo nome do arquivo fornecido como entrada. Ou seja, se o arquivo `A.in` foi utilizado como entrada, deve ser gerado um arquivo `A.out` como saída. 
+Dentre as tarefas deste trabalho, deverão ser implementadas uma versão sequencial e uma versão concorrente do algoritmo de ordenação *merge sort*. O programa deverá receber como entrada um arquivo de texto dentre os disponíveis no diretório [`input`](input) deste repositório, cada um deles contendo um conjunto de valores inteiros a ser ordenado. Para cada arquivo, o programa deverá (i) ler os valores a partir do arquivo, (ii) realizar a ordenação dos valores, (iii) medir o tempo de execução despendido pela ordenação e (iv) gerar, como saída, um novo arquivo no diretório [`output`](output) com o conjunto ordenado de valores e o mesmo nome do arquivo fornecido como entrada. Ou seja, se o arquivo `A.in` foi utilizado como entrada, deve ser gerado um arquivo `A.out` como saída.
 
 Especificamente para a versão concorrente da implementação do *merge sort*, deverão ser utilizadas *threads* **apenas** na etapa de ordenação propriamente dita, ou seja, a entrada e saída de dados devem ser sequenciais. Por questões de simplicidade, o procedimento de junção das partições ordenadas do arranjo (*merge*) deve ser feita de forma sequencial/iterativa, de modo que essencialmente novas *threads* serão alocadas apenas para tratar as partições do arranjo que estão sendo ordenadas.
 
@@ -72,7 +72,7 @@ Uma vez realizadas as tarefas de implementação e de experimentação, deverá 
 
 ## Autoria e política de colaboração
 
-Este trabalho deverá necessariamente ser realizado em equipe composta de **até dois estudantes**, sendo importante, dentro do possível, dividir as tarefas igualmente entre os integrantes da equipe. Após a implementação das soluções para os problemas propostos, o arquivo author.md presente no repositório deverá ser editado preenchendo as informações de identificação dos integrantes da equipe, na seção Informações de Autoria.
+Este trabalho deverá necessariamente ser realizado em equipe composta de **até dois estudantes**, sendo importante, dentro do possível, dividir as tarefas igualmente entre os integrantes da equipe. Após a implementação das soluções para os problemas propostos, o arquivo [`author.md`](https://github.com/ufrn-concprog/mergesort/tree/master/author.md) presente no repositório deverá ser editado preenchendo as informações de identificação dos integrantes da equipe, na seção [Informações de Autoria](https://github.com/ufrn-concprog/mergesort/tree/master/author.md#identificação-de-autoria).
 
 O trabalho em cooperação entre estudantes da turma é estimulado, sendo admissível a discussão de ideias e estratégias. Contudo, tal interação não deve ser entendida como permissão para utilização de (parte de) código fonte de colegas, o que pode caracterizar situação de plágio. **Trabalhos copiados no todo ou em parte de outros colegas ou da Internet serão anulados e receberão nota zero.**
 
