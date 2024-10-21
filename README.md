@@ -1,6 +1,6 @@
 # Trabalho Prático: Um estudo empírico sobre programação concorrente com threads
 
-<sub>Última atualização: 26/04/2023</sub>
+<sub>Última atualização: 21/10/2024</sub>
 
 ## Sumário
 
@@ -78,11 +78,11 @@ O trabalho em cooperação entre estudantes da turma é estimulado, sendo admiss
 
 ## Entrega
 
-O sistema de controle de versões [Git](https://git-scm.com) e o serviço de hospedagem de repositórios [GitHub](https://git-scm.com) serão utilizados para possibilitar a entrega da implementação realizadas. Para possibilitar a associação de repositórios Git para cada equipe e reuni-los sob uma mesma infraestrutura, foi criada uma atividade (*assignment*) no GitHub Classroom. Cada integrante de equipe deverá acessar este [*link*](https://classroom.github.com/a/iglvzwKC), aceitar o convite para ingressar no GitHub Classroom e finalmente seguir as instruções em tela para acessar a atividade e ingressar em uma equipe existente ou criar outra. Este [vídeo](https://youtu.be/ObaFRGp_Eko) demonstra como ocorre esse processo.
+O sistema de controle de versões [Git](https://git-scm.com) e o serviço de hospedagem de repositórios [GitHub](https://git-scm.com) serão utilizados para possibilitar a entrega da implementação realizadas. Para possibilitar a associação de repositórios Git para cada equipe e reuni-los sob uma mesma infraestrutura, foi criada uma atividade (*assignment*) no GitHub Classroom. Cada integrante de equipe deverá acessar este [*link*](https://classroom.github.com/a/QNCu7YVO), aceitar o convite para ingressar no GitHub Classroom e finalmente seguir as instruções em tela para acessar a atividade e ingressar em uma equipe existente ou criar outra. Este [vídeo](https://youtu.be/ObaFRGp_Eko) demonstra como ocorre esse processo.
 
 No momento de criação de uma equipe, o GitHub Classroom cria um repositório Git privado acessível unicamente pelos integrantes da equipe e pelo docente, sob a organização [`ufrn-concprog`](https://github.com/ufrn-concprog). A fim de garantir a boa manutenção do repositório, deve-se ainda configurar corretamente o arquivo `.gitignore` para desconsiderar arquivos que não devam ser versionados, a exemplo dos arquivos executáveis gerado a partir da compilação do código fonte. Também não é necessário versionar os arquivos de saída resultantes do processo de ordenação.
 
-A entrega deste trabalho deverá ser realizada até as **23:59 do dia 7 de maio de 2023** no respectivo repositório Git da equipe. O relatório elaborado, preferencialmente em formato *Adobe Portable Format* (PDF), deverá ser enviado através da opção *Tarefas* da Turma Virtual do SIGAA, juntamente com, no campo *Comentários*, o endereço do repositório. Um único membro da equipe deve realizar esse envio e não serão aceitos envios por outros meios ou repositórios que não sejam os descritos nesta especificação.
+A entrega deste trabalho deverá ser realizada até as **23:59 do dia 3 de novembro de 2024** no respectivo repositório Git da equipe. O relatório elaborado, preferencialmente em formato *Adobe Portable Format* (PDF), deverá ser enviado através da opção *Tarefas* da Turma Virtual do SIGAA, juntamente com, no campo *Comentários*, o endereço do repositório. Um único membro da equipe deve realizar esse envio e não serão aceitos envios por outros meios ou repositórios que não sejam os descritos nesta especificação.
 
 ## Avaliação
 
@@ -92,7 +92,7 @@ A avaliação do trabalho contabilizará nota de até 4,0 pontos na 1ª Unidade 
 - corretude da execução do programa implementado, que deve apresentar saída em conformidade com a especificação;
 - aplicação de boas práticas de programação, incluindo legibilidade, organização e documentação de código fonte;
 - correta utilização do repositório Git, no qual deverá ser registrado todo o histórico da implementação por meio de *commits*, e;
-- qualidade do relatório produzido
+- qualidade do relatório produzido.
 
 ## Dúvidas e informações
 
